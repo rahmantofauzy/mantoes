@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vrrcitqd/public/html/
+    - export DEPLOYPATH=/home/vrrcitqd/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R forms @DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
